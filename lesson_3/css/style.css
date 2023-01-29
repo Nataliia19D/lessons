@@ -1,0 +1,67 @@
+@import url(reset.css);
+
+*{
+   color: blueviolet;
+}
+
+div{
+   color: yellow;
+}
+a{
+   color: black;
+}
+
+.text{
+   color: gold;
+}
+
+#career__dynamo{
+   color: gray;
+}
+
+div.text{
+   color: red;
+}
+
+.block.text{
+   color: palevioletred;
+}
+
+.block{
+   color: lightgreen;
+}
+
+.text{
+   color: forestgreen;
+}
+
+.block,
+.text{
+   color: tomato;
+}
+.text p{
+   color: orangered;
+}
+.career .text{
+   color: chartreuse;
+}
+
+.text *{
+   color: darkslategray;
+}
+
+.text > p {
+color: peru;
+}
+
+.text ~ p{
+   color: black;
+}
+
+.text + p{
+   color: seagreen;
+}
+
+[class*="__milan"]{
+   color: red;
+}
