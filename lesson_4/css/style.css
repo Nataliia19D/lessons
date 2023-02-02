@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Yeseva+One:regular&display=swap);
+
+@font-face {
+	font-family: "Brume-Italic";
+	src: url("/fonts/Brume-Italic.woff2") format("woff2"), url("../fonts/Brume-Italic.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Brume-Regular";
+	src: url("/fonts/Brume-Regular.woff2") format("woff2"), url("../fonts/Brume-Regular.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+body{
+   font-family: Yeseva One, sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: darkslategrey;
+   letter-spacing: 1px;
+}
+
+.header{
+   font-family: Roboto, Arial;
+   font-size: 24px;
+   font-weight: 500;
+   color: rgb(8, 125, 8);
+   text-align: center;
+}
+
+.title{
+   font-family: Roboto, Arial;
+   font-size: 18px;
+   font-style: italic;
+   font-weight: 500;
+   color: rgb(5, 79, 5);
+   text-align: center;
+}
+
+.text{
+   text-align: justify;
+   color: rgb(44, 4, 81);
+   text-indent: 10px;
+   white-space: normal;
+   font-family: Brume-Italic, sans-serif;
+}
+
+.list{
+   text-decoration: underline;
+   color: rgb(30, 11, 48);
+   line-height: 200%;
+   word-spacing: 1px;
+}
+
+.intro{
+   text-shadow: hoff voff blur rgb(4, 4, 121);
+   font-family: CircularStd-BookItalic;
+   font-weight: 500;
+}
+
+.content-end{
+   text-transform: uppercase;
+   line-height: normal;
+}
+
+h1{
+   font-family: Brume-Regular, sans-serif;
+   font-weight: 300;
+}
+
