@@ -1,0 +1,118 @@
+@import url(reset.css);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+body{
+   font-family: "Poppins", serif;
+   font-size: 14px;
+   font-weight: 300;
+   color: #6C757D;
+   line-height: 1.78;
+}
+
+[class*="__container"]{
+   max-width: 1270px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+}
+
+.vence {
+   padding-top: 15px;
+   
+}
+
+.block{
+   max-width: 816px;
+   margin: 0 auto 80px;
+}
+
+.block p{
+   margin-bottom: 30px;
+}
+
+.block_second_part{
+   max-width: 816px;
+   margin: 0 auto 100px;
+}
+.first__paragraph{
+   margin-bottom: 30px;
+}
+
+.second__paragraph{
+   margin-bottom: 100px;
+}
+
+.title, .title__newpage{
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 1.6;
+   color: #212529;
+   margin-bottom: 40px;
+   max-width: 605px;
+}
+
+.title__newpage{
+   margin-bottom: 100px;
+}
+
+.desert{
+   max-width: 100%;
+   margin-bottom: 80px;
+}
+
+.images__lake {
+   font-size: 0;
+   margin-bottom: 80px;
+}
+.lake__1 {
+   margin-right: 30px;
+   max-width: 100%;
+}
+.lake__2{
+   max-width: 100%;
+}
+
+.wardrobe{
+   width: 100%;
+   margin-bottom: 100px;
+}
+
+.images__photo_clothes {
+   font-size: 0;
+	margin-bottom: 100px;
+}
+.black__t-shirts {
+   margin-right: 30px;
+   max-width: 100%;
+}
+.red__sweatshirt{
+   max-width: 100%;
+}
+
+
+.practice__1{
+   margin: 0 auto;
+   max-width: 816px;
+}
+
+.practice__1 p{
+   border-top: 3px solid yellow;
+   border-right: 4px dashed orange;
+   border-left: 4px dashed yellowgreen;
+   border-bottom: 3px solid orangered;
+   margin-bottom: 15px;
+   opacity: 0.5;
+   box-shadow: inset 4px 4px 20px 4px #146b19;
+}
+.practice__1 img{
+   outline: 5px solid green;
+   border-radius: 60px;
+   visibility: visible;
+
+}
+.practice_2{
+   outline: 4px dashed rgb(6, 73, 82);
+   box-shadow: 20px 0px 20px 20px #67107a;
+}
+
