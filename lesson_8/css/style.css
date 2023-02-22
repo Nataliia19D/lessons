@@ -177,6 +177,10 @@ padding-top: 100px;
    vertical-align: middle;
 }
 
+.list__2 li:hover::before{
+   transform: rotate(-180deg) scale(1.5);
+}
+
 .list__2{
    display: inline-block;
    margin-right: 91px;
@@ -209,6 +213,9 @@ padding-top: 100px;
    display: inline-block;
    vertical-align: middle;
 }
+.number__1 li:hover::before{
+   transform: rotate(-180deg) scale(1.5);
+}
 
 .number__1{
    display: inline-block;
@@ -224,6 +231,9 @@ padding-top: 100px;
    display: inline-block;
    vertical-align: middle;
 }
+.number__2 li:hover::before{
+   transform: rotate(-180deg) scale(1.5);
+}
 
 .number__2{
    display: inline-block;
@@ -238,6 +248,9 @@ padding-top: 100px;
    width: 20px;
    display: inline-block;
    vertical-align: middle;
+}
+.number__3 li:hover::before{
+   transform: rotate(-180deg) scale(1.5);
 }
 
 .number__3{
@@ -275,8 +288,11 @@ background-color: fuchsia;
 
 .link{
    max-width: 1270px;
-	margin: 0 auto;
+   margin: 0 auto;
    padding: 0 15px;
+   font-family: "Inter", serif; 
+   font-weight: 700;
+   font-size: 16px;
    
 }
 
@@ -284,6 +300,9 @@ background-color: fuchsia;
    max-width: 1270px;
 	margin: 0 auto;
    padding: 0 15px;
+   font-family: "Inter", serif; 
+   font-weight: 700;
+   font-size: 16px;
 }
 .link-2:focus{
 outline: solid green;
@@ -294,6 +313,9 @@ outline: solid green;
    max-width: 1270px;
 	margin: 0 auto;
    padding: 0 15px;
+   font-family: "Inter", serif; 
+   font-weight: 700;
+   font-size: 16px;
 }
 
 .main-block{
@@ -301,8 +323,14 @@ outline: solid green;
    max-width: 1270px;
 	margin: 0 auto;
    padding: 0 15px;
+   font-family: "Inter", serif; 
+   font-weight: 700;
+   font-size: 16px;
 }
 
 .main-block:target{
    display: block;
+   font-family: "Inter", serif; 
+   font-weight: 700;
+   font-size: 16px;
 }
