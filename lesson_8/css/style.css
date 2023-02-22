@@ -267,11 +267,17 @@ padding-top: 100px;
    max-width: 1270px;
 	margin: 0 auto;
    padding: 0 15px;
+   font-family: "Inter", serif; 
+   font-weight: 700;
+   font-size: 16px;
 }
 
 .text__practice{
    background-color: chartreuse;
    visibility: hidden;
+   font-family: "Inter", serif; 
+   font-weight: 700;
+   font-size: 16px;
 }
 .practice:hover .text__practice{
    visibility: visible;
@@ -293,6 +299,8 @@ background-color: fuchsia;
    font-family: "Inter", serif; 
    font-weight: 700;
    font-size: 16px;
+   background-color: darkgreen;
+   border-radius: 20px;
    
 }
 
@@ -303,6 +311,8 @@ background-color: fuchsia;
    font-family: "Inter", serif; 
    font-weight: 700;
    font-size: 16px;
+   background-color: rgb(55, 130, 105);
+   border-radius: 20px;
 }
 .link-2:focus{
 outline: solid green;
