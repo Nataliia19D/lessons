@@ -285,7 +285,7 @@ padding-top: 100px;
 
 .practice a:hover{
 text-decoration: underline;
-background-color: fuchsia;
+background-color: rgb(189, 212, 44);
 }
 
 .link:active{
