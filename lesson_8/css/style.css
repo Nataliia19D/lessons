@@ -345,3 +345,33 @@ outline: solid green;
    font-weight: 700;
    font-size: 16px;
 }
+
+.practice__paragraph{
+   font-family: "Poppins", serif;
+   font-weight: 300;
+   line-height: 20px;
+   padding: 15px;
+   color: #637381;
+   background: #E5E5E5;
+}
+
+.practice__paragraph p{
+   margin-bottom: 15px;
+}
+
+
+.practice__paragraph p:last-child{
+   margin-bottom: 0px;
+}
+
+.practice__paragraph p:first-child{
+   text-transform: uppercase;
+   background-color: darkcyan;
+   border-radius: 5px;
+}
+
+.practice__paragraph p:last-of-type{
+   text-transform: uppercase;
+   background-color: rgb(72, 212, 149);
+   border-radius: 8px;
+}
