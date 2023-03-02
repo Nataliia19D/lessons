@@ -29,7 +29,7 @@ h3{
    margin-bottom: 15px;
 }
 
-.content::not(:first-child){
+.content:not(:first-child){
    display: inline-block;
    font-size: 0;
    max-width: 100%;
